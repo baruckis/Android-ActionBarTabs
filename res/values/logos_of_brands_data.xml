@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="logos_of_brands">
+        <item>@drawable/apple_logo</item>
+        <item>@drawable/coca_cola_logo</item>
+        <item>@drawable/ferrari_logo</item>
+        <item>@drawable/google_logo</item>
+        <item>@drawable/gucci_logo</item>
+        <item>@drawable/yahoo_logo</item>
+        <item>@drawable/microsoft_logo</item>
+        <item>@drawable/mtv_logo</item>
+        <item>@drawable/samsung_logo</item>
+    </string-array>
+
+</resources>

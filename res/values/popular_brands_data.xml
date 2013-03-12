@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="popular_brands">
+        <item>Coca-Cola</item>
+        <item>Google</item>
+        <item>Gucci</item>
+        <item>Microsoft</item>
+        <item>Samsung</item>
+    </string-array>
+
+</resources>

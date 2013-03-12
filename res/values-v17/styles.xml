@@ -1,0 +1,12 @@
+<resources>
+
+    <!--
+        Base application theme for API 17+. This theme completely replaces
+        AppBaseTheme from BOTH res/values/styles.xml and
+        res/values-v13/styles.xml on API 17+ devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- API 17 theme customizations can go here. -->
+    </style>
+
+</resources>

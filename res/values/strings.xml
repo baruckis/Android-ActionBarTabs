@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">baruckis.com TABS</string>
+    <string name="main_title">baruckis.com</string>
+    <string name="first_title">Tabs control same fragment</string>
+    <string name="second_title">Tabs control different fragments</string>
+    
+    <string name="contact_email">andrius.baruckis@gmail.com</string>
+    <string name="contact_email_subject">ActionBar Tabs Demo feedback</string>
+    
+    <string name="source_code_repository_link">https://github.com/baruckis/Android-ActionBarTabs</string>
+    
+    <string name="full_image_description"></string>
+    
+    <string name="tutorial_title">ACTIONBAR TABS EXAMPLE</string>
+    <string name="first_image_label">TABS CONTROL SAME FRAGMENT</string>
+    <string name="first_image_description">Tabs control same fragment</string>
+    <string name="second_image_label">TABS CONTROL DIFFERENT FRAGMENTS</string>
+    <string name="second_image_description">Tabs control different fragments</string>
+    <string name="textview_label">Please, choose your favourite brand!?</string>
+
+    <!-- TABS -->
+    <string name="same_fragment_first_tab_title">Popular</string>
+    <string name="same_fragment_second_tab_title">All</string>
+    <string name="different_fragments_first_tab_title">Popular brands list</string>
+    <string name="different_fragments_second_tab_title">Brands logos grid</string>
+
+    <!-- MENU -->
+    <string name="menu_github_short">GitHub</string>
+    <string name="menu_github_long">Source on GitHub</string>
+    <string name="menu_about_short">About</string>
+    <string name="menu_about_long">About this app</string>
+    <string name="menu_contact_short">Contact</string>
+    <string name="menu_contact_long">Contact developer</string>
+
+    <!-- DIALOGS -->
+    <string name="dialog_about_title">"About"</string>
+    <string name="dialog_about_message">&lt;b>ActionBar Tabs Demo&lt;/b> is an example app,
+        which shows how to build a tabbed navigation for your app using ActionBar and fragments. It has two different aproaches.
+        First one demonstrates two tabs, where each tab controls same ListView inside a same fragment by just refreshing it.
+        Second one demonstrates two tabs, where each tab controls their own fragments with different visual components.
+        
+        &lt;br>&lt;br>
+		Please feel free to grab the source of this app at the GitHub by pressing little octocat icon in the ActionBar
+		and use it anywhere you want at your Android projects.
+		I hope you will find it clear and useful! 
+		
+		&lt;br>&lt;br>
+		Author,
+		&lt;br>
+		&lt;b>Andrius Baruckis&lt;/b>
+		&lt;br>
+		http://www.baruckis.com</string>
+	<string name="dialog_about_button_text">"Close"</string>
+	<string name="dialog_list_item_click_title">"List item click information"</string>
+	<string name="dialog_list_item_click_message_part1">"Your favourite brand is "</string>
+	<string name="dialog_list_item_click_message_part2">"." &lt;br> "Good choise! ☺"</string>
+	<string name="dialog_list_item_click_button_text">"OK"</string>
+    
+	<!-- TOASTS -->
+    <string name="toast_contact_no_email">"Sorry, we could not find any e-mail apps on your device. Please install first and try again."</string>
+    <string name="toast_unsupported_encoding">"Sorry, your device does not support UTF-8 encoding."</string>
+
+</resources>

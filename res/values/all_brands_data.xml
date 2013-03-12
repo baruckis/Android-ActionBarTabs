@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="all_brands">
+        <item>Apple</item>
+        <item>Coca-Cola</item>
+        <item>Ferrari</item>
+        <item>Google</item>
+        <item>Gucci</item>
+        <item>Yahoo!</item>
+        <item>Microsoft</item>
+        <item>MTV</item>
+        <item>Samsung</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="5dp" >
+
+    <TextView
+        android:id="@+id/tutorial_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:alpha="0.8"
+        android:background="@android:color/black"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="@string/tutorial_title"
+        android:textColor="@android:color/white"
+        android:textSize="13sp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/tutorial_title"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.00"
+            android:background="@drawable/highlight_selector"
+            android:clickable="true"
+            android:onClick="launchFirst"
+            android:padding="5dp" >
+
+            <ImageView
+                android:id="@+id/first_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/first_image_description"
+                android:scaleType="centerCrop"
+                android:src="@drawable/tabs_same_fragment" />
+
+            <TextView
+                android:id="@+id/first_image_label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:alpha="0.8"
+                android:background="@android:color/black"
+                android:padding="5dp"
+                android:text="@string/first_image_label"
+                android:textColor="@android:color/white"
+                android:textSize="13sp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.00"
+            android:background="@drawable/highlight_selector"
+            android:clickable="true"
+            android:onClick="launchSecond"
+            android:padding="5dp" >
+
+            <ImageView
+                android:id="@+id/second_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/second_image_description"
+                android:scaleType="centerCrop"
+                android:src="@drawable/tabs_different_fragments" />
+
+            <TextView
+                android:id="@+id/second_image_label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:alpha="0.8"
+                android:background="@android:color/black"
+                android:padding="5dp"
+                android:text="@string/second_image_label"
+                android:textColor="@android:color/white"
+                android:textSize="13sp" />
+        </FrameLayout>
+    </LinearLayout>
+
+</RelativeLayout>
